@@ -1,0 +1,53 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    overflow: hidden;
+}
+.nav{
+    position: relative;
+}
+nav{
+    background-color: black;
+}
+nav a {
+    padding: 0.5rem;
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+}
+.content{
+    margin-top: 40px;
+    margin-left: 5px;
+}
+.show-details{
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 400px;
+    padding: 20px;
+}
+.show{
+    background: rgb(26, 24, 24);
+    margin-top: 50px;
+    margin-left: 500px;
+    width: 400px;
+    padding: 20px;
+    color: aliceblue;
+    border-radius: 15px 5px;
+
+
+}
+.show ul li{
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.show ul li:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+.error{
+    color: red;
+}
+.input-style{
+
+margin-left: 10px;
+}
